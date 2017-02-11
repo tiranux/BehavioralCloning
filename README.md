@@ -6,6 +6,7 @@ This project is developed for the Self-Driving Car Nanodegree by Udacity. The go
 
 In order to get the data, we need to capture a "smooth" running in the simulator. It is important to get smooth dataset because if the training data has samples where the car is zigzaggint, that behavior will also be cloaned by the network (and will be even worse). A good data set will keep the car in the center of the road most of the time. 
 Even though we do not want pictures that teach our car to go to the lanes, it is important to record some pictures where the car in on the lanes and steering in order to go back to the center, this will teach the car to recover from situation where it goes over the lanes. This is achieved by intentionally steering the car over the lanes and recording only when the car is going back to the center.  
+Additionally, the running was recorded going the other way around in which the car goes when running in autonomus mode, this helps to generalize and also prevents overfitting.  
 
 The original number of samples is 8036 from a smooth drive + 920 for recovery.   
 
