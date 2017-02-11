@@ -1,7 +1,6 @@
 
-# Behavioral Cloning
-
-
+# Behavioral Cloning  
+This project is developed for the Self-Driving Car Nanodegree by Udacity. The goal is to train a Convolutional Neural Network that is able to predict steering angles in order to drive a car in a simulator.  
 
 ## Choosing the Data
 
