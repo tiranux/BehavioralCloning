@@ -132,4 +132,8 @@ The number of epochs per dataset is as follows:
 ## Saving model
 Model is saved in json format so that it can be loaded by the simulator.
 
+# Results
+After trainig, the model achieved a loss of 0.0116, which is enough for driving the car along the track without leaving the road. The effect of recovery is also visible in a couple of ocassions in which the car was going near the lane line and returned to the center. The model is also able to drive and a never seen before track with high success.
+
+
 
